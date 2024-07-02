@@ -44,7 +44,18 @@ The report also includes visualizations using matplotlib to aid in interpreting 
 
 ## Installation and Execution
 
-1. **Activate your virtual environment:**
+1. **Navigate to the project directory.**
+
+2. **Create your virtual environment:**
+
+   ```bash
+   # On Windows
+   python -m venv venv
+
+   # On macOS/Linux
+   python3 -m venv venv
+
+2. **Activate your virtual environment:**
 
    ```bash
    # On Windows
@@ -53,12 +64,11 @@ The report also includes visualizations using matplotlib to aid in interpreting 
    # On macOS/Linux
    source venv/bin/activate
 
-2. **Install dependencies:**
+3. **Install dependencies:**
    ```python
    pip install -U -r requirements.txt
 
-3. **Run Notebooks:**
+4. **Run Notebooks:**
 
    You can now run the notebooks using the installed IPython kernel. 
    Open your notebook files (1.eda.ipynb and 2.reports.ipynb) and select the kernel associated with your virtual environment (venv)
-   
